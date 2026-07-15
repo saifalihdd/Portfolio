@@ -1,36 +1,150 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Saif Ali — Personal Portfolio
 
-## Getting Started
+A modern, interactive personal portfolio website featuring a cyberpunk-inspired 3D background, liquid-glass UI, and a fully functional simulated terminal. Built to showcase projects across Full-Stack Development and UI/UX Design.
 
-First, run the development server:
+![Status](https://img.shields.io/badge/Status-Live-success?style=flat-square)
+![Next.js](https://img.shields.io/badge/Next.js-15-black?style=flat-square&logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue?style=flat-square&logo=typescript)
+![Three.js](https://img.shields.io/badge/Three.js-3D-white?style=flat-square&logo=three.js)
+
+## 🌍 Live Demo
+
+🔗 https://saifalihdd.github.io/Portfolio/
+
+---
+
+## ✨ Features
+
+- 🎨 **Interactive 3D Background**
+  - Dynamic cyberpunk wave grid powered by **Three.js**
+  - Mouse-responsive animations for an immersive experience
+
+- 🪟 **Custom UI Architecture**
+  - Liquid-glass design language
+  - Custom trailing cursor
+  - Smooth scroll progress indicator
+
+- 👤 **Profile Mode Toggle**
+  - Switch between **DEV_MODE** and **DESIGN_MODE**
+  - Dynamic accent colors
+  - Context-aware profile presentation
+
+- 💻 **Interactive Terminal**
+  - Simulated command-line interface
+  - Commands such as:
+    - `whoami`
+    - `experience`
+    - `projects`
+    - and more
+
+- 🌐 **Responsive Design**
+  - Optimized for desktop, tablet, and mobile devices
+
+- 🏗️ **Scalable Product Architecture**
+  - Structured for maintainability
+  - Clean component organization
+  - Universal accessibility
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Technology |
+|----------|------------|
+| Framework | Next.js 15 (App Router) |
+| Language | TypeScript |
+| Styling | Vanilla CSS Variables & Custom Glassmorphism |
+| 3D Rendering | Three.js |
+| Deployment | GitHub Pages + GitHub Actions |
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Install the latest version of **Node.js** before running the project.
+
+---
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/saifalihdd/Portfolio.git
+```
+
+### 2. Navigate to the Project
+
+```bash
+cd Portfolio
+```
+
+### 3. Install Dependencies
+
+```bash
+npm install
+```
+
+### 4. Run the Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser and visit:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📦 Deployment
 
-To learn more about Next.js, take a look at the following resources:
+This portfolio is configured for **static export** and automatically deployed to **GitHub Pages** using **GitHub Actions**.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Configuration
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+`next.config.ts`
 
-## Deploy on Vercel
+```ts
+output: "export",
+basePath: "/Portfolio"
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### CI/CD
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Every push to the `main` branch automatically:
+
+1. Builds the project
+2. Exports the static site
+3. Deploys it to GitHub Pages
+
+Workflow location:
+
+```text
+.github/workflows/nextjs.yml
+```
+
+---
+
+## 📁 Project Structure
+
+```text
+Portfolio/
+├── app/
+├── components/
+├── public/
+├── styles/
+├── .github/
+│   └── workflows/
+├── next.config.ts
+├── package.json
+└── README.md
+```
+
+---
+
+## 📄 License
+
+© 2026 Saif Ali. All rights reserved.
