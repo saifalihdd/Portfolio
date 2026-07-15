@@ -455,7 +455,7 @@ export default function Home() {
               <div className="stack-tags">
                 <span>Java</span><span>Kotlin</span><span>Supabase</span><span>RecyclerView</span><span>REST API</span>
               </div>
-              <a className="proj-link" href="https://github.com/saifalihdd" target="_blank" rel="noopener noreferrer">View repository →</a>
+              <a className="proj-link" href="https://github.com/exfRiendd/circlo" target="_blank" rel="noopener noreferrer">View repository →</a>
             </div>
             <div className="project-card glass-surface reveal" style={{ '--d': 3 } as React.CSSProperties}>
               <span className="role">Frontend Developer · Jun 2026</span>
@@ -464,7 +464,7 @@ export default function Home() {
               <div className="stack-tags">
                 <span>React.js</span><span>Flutter</span><span>Tailwind</span><span>Leaflet.js</span><span>Axios</span>
               </div>
-              <a className="proj-link" href="https://github.com/saifalihdd" target="_blank" rel="noopener noreferrer">View repository →</a>
+              <a className="proj-link" href="https://infravision-jynuumn4r-anggasspms-projects.vercel.app" target="_blank" rel="noopener noreferrer">View repository →</a>
             </div>
           </div>
         </div>
