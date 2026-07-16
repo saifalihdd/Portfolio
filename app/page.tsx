@@ -454,7 +454,7 @@ export default function Home() {
               <span className="role">Core Feature Developer · May – Jun 2026</span>
               <h3>Community-Based Marketplace App</h3>
               <img 
-                src="Portfolio/projects/circlo.png" 
+                src={`${basePath}/projects/circlo.png`} 
                 alt="Community-Based Marketplace App preview" 
                 className="project-image" 
                 width={640} 
@@ -470,7 +470,7 @@ export default function Home() {
               <span className="role">Frontend Developer · Jun 2026</span>
               <h3>AI Infrastructure Reporting System</h3>
               <img
-                src="Portfolio/projects/infravision.png" 
+                src={`${basePath}/projects/infravision.png`} 
                 alt="AI Infrastructure Reporting System preview" 
                 className="project-image" 
                 width={640} 
