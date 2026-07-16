@@ -2,7 +2,6 @@
 
 import React, { useEffect, useRef, useState, KeyboardEvent } from "react";
 import * as THREE from "three";
-import Image from "next/image";
 
 type TerminalLine = {
   text: string;
@@ -326,6 +325,8 @@ export default function Home() {
     }
   };
 
+  const basePath = "/Portfolio";
+
   return (
     <>
       <canvas id="bg-canvas" ref={canvasRef}></canvas>
@@ -452,7 +453,7 @@ export default function Home() {
             <div className="project-card glass-surface reveal" style={{ '--d': 2 } as React.CSSProperties}>
               <span className="role">Core Feature Developer · May – Jun 2026</span>
               <h3>Community-Based Marketplace App</h3>
-              <Image 
+              <img 
                 src="/projects/circlo.png" 
                 alt="Community-Based Marketplace App preview" 
                 className="project-image" 
@@ -468,7 +469,7 @@ export default function Home() {
             <div className="project-card glass-surface reveal" style={{ '--d': 3 } as React.CSSProperties}>
               <span className="role">Frontend Developer · Jun 2026</span>
               <h3>AI Infrastructure Reporting System</h3>
-              <Image 
+              <img
                 src="/projects/infravision.png" 
                 alt="AI Infrastructure Reporting System preview" 
                 className="project-image" 
