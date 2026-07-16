@@ -2,6 +2,7 @@
 
 import React, { useEffect, useRef, useState, KeyboardEvent } from "react";
 import * as THREE from "three";
+import Image from "next/image";
 
 type TerminalLine = {
   text: string;
@@ -451,7 +452,13 @@ export default function Home() {
             <div className="project-card glass-surface reveal" style={{ '--d': 2 } as React.CSSProperties}>
               <span className="role">Core Feature Developer · May – Jun 2026</span>
               <h3>Community-Based Marketplace App</h3>
-              <img src="/projects/circlo.png" alt="Community-Based Marketplace App preview" className="project-image" loading="lazy" />
+              <Image 
+                src="/projects/circlo.png" 
+                alt="Community-Based Marketplace App preview" 
+                className="project-image" 
+                width={640} 
+                height={360} 
+              />
               <p>Android marketplace app built around a 3-stage donation flow and a structured state machine for item status transitions. Developed the highest number of features on the team — 11 core functionalities in total, including a real-time chat system over Supabase Realtime WebSocket.</p>
               <div className="stack-tags">
                 <span>Java</span><span>Kotlin</span><span>Supabase</span><span>RecyclerView</span><span>REST API</span>
@@ -461,7 +468,13 @@ export default function Home() {
             <div className="project-card glass-surface reveal" style={{ '--d': 3 } as React.CSSProperties}>
               <span className="role">Frontend Developer · Jun 2026</span>
               <h3>AI Infrastructure Reporting System</h3>
-              <img src="/projects/infravision.png" alt="AI Infrastructure Reporting System preview" className="project-image" loading="lazy" />
+              <Image 
+                src="/projects/infravision.png" 
+                alt="AI Infrastructure Reporting System preview" 
+                className="project-image" 
+                width={640} 
+                height={360} 
+              />
               <p>Web platform for reporting infrastructure damage with an interactive GIS map — marker clustering, severity heatmaps and spatial filtering built on Leaflet.js and OpenStreetMap. Includes a companion Flutter app and role-based dashboards for citizens, admins and maintenance teams.</p>
               <div className="stack-tags">
                 <span>React.js</span><span>Flutter</span><span>Tailwind</span><span>Leaflet.js</span><span>Axios</span>
