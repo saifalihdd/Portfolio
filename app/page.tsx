@@ -461,7 +461,7 @@ export default function Home() {
             <div className="project-card glass-surface reveal" style={{ '--d': 3 } as React.CSSProperties}>
               <span className="role">Frontend Developer · Jun 2026</span>
               <h3>AI Infrastructure Reporting System</h3>
-              <img src="/public/projects/infravision.png" alt="AI Infrastructure Reporting System preview" className="project-image" loading="lazy" />
+              <img src="/projects/infravision.png" alt="AI Infrastructure Reporting System preview" className="project-image" loading="lazy" />
               <p>Web platform for reporting infrastructure damage with an interactive GIS map — marker clustering, severity heatmaps and spatial filtering built on Leaflet.js and OpenStreetMap. Includes a companion Flutter app and role-based dashboards for citizens, admins and maintenance teams.</p>
               <div className="stack-tags">
                 <span>React.js</span><span>Flutter</span><span>Tailwind</span><span>Leaflet.js</span><span>Axios</span>
