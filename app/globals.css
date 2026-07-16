@@ -376,7 +376,7 @@ nav {
 
 .project-card .project-image {
   width: 100%;
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 3 / 2;
   object-fit: cover;
   border-radius: var(--glass-radius-sm);
   border: 1px solid var(--glass-border);
