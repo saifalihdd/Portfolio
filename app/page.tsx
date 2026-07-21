@@ -483,7 +483,7 @@ export default function Home() {
               <a className="proj-link" href="https://infravision-jynuumn4r-anggasspms-projects.vercel.app" target="_blank" rel="noopener noreferrer">View website →</a>
             </div>
             <div className="project-card glass-surface reveal" style={{ '--d': 4 } as React.CSSProperties}>
-              <span className="role">Game Developer · 2026</span>
+              <span className="role">Game Developer · Dec 2025</span>
               <h3>Night City Racing Game</h3>
               <img 
                 src={`${basePath}/projects/midnightrush.png`} 
