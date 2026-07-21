@@ -480,7 +480,23 @@ export default function Home() {
               <div className="stack-tags">
                 <span>React.js</span><span>Flutter</span><span>Tailwind</span><span>Leaflet.js</span><span>Axios</span>
               </div>
-              <a className="proj-link" href="https://infravision-jynuumn4r-anggasspms-projects.vercel.app" target="_blank" rel="noopener noreferrer">View repository →</a>
+              <a className="proj-link" href="https://infravision-jynuumn4r-anggasspms-projects.vercel.app" target="_blank" rel="noopener noreferrer">View website →</a>
+            </div>
+            <div className="project-card glass-surface reveal" style={{ '--d': 4 } as React.CSSProperties}>
+              <span className="role">Game Developer · 2026</span>
+              <h3>Night City Racing Game</h3>
+              <img 
+                src={`${basePath}/projects/midnightrush.png`} 
+                alt="Night city racing game preview" 
+                className="project-image" 
+                width={640} 
+                height={360} 
+              />
+              <p>Racing game built in Unity set in a sprawling city map at night, using third-party assets for environment and vehicle models. Features multiple car classes, each with distinct handling, top speed, and acceleration specs for varied gameplay styles.</p>
+              <div className="stack-tags">
+                <span>Unity</span><span>C#</span><span>Asset Store</span><span>Vehicle Physics</span>
+              </div>
+              <a className="proj-link" href="https://github.com/saifalihdd/midnight-rush">View repository →</a>
             </div>
           </div>
         </div>
