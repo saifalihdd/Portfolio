@@ -462,7 +462,7 @@ export default function Home() {
               />
               <p>Android marketplace app built around a 3-stage donation flow and a structured state machine for item status transitions. Developed the highest number of features on the team — 11 core functionalities in total, including a real-time chat system over Supabase Realtime WebSocket.</p>
               <div className="stack-tags">
-                <span>Java</span><span>Kotlin</span><span>Supabase</span><span>RecyclerView</span><span>REST API</span>
+                <span>Java</span><span>Kotlin</span><span>Supabase</span><span>REST API</span>
               </div>
               <a className="proj-link" href="https://github.com/exfRiendd/circlo" target="_blank" rel="noopener noreferrer">View repository →</a>
             </div>
@@ -510,7 +510,7 @@ export default function Home() {
             <div className="skill-group reveal" style={{ '--d': 2 } as React.CSSProperties}>
               <h4>Languages</h4>
               <div className="skill-tags" data-track="dev">
-                <span>HTML/CSS</span><span>JavaScript</span><span>TypeScript</span><span>Java</span><span>Kotlin</span><span>Python</span><span>React.js</span><span>React Native</span>
+                <span>HTML/CSS</span><span>JavaScript</span><span>TypeScript</span><span>Java</span><span>Kotlin</span><span>Python</span><span>React.js</span><span>React Native</span><span>C</span><span>C++</span><span>C#</span>
               </div>
             </div>
             <div className="skill-group reveal" style={{ '--d': 3 } as React.CSSProperties}>
