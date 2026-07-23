@@ -480,7 +480,7 @@ export default function Home() {
               <div className="stack-tags">
                 <span>React.js</span><span>Flutter</span><span>Tailwind</span><span>Leaflet.js</span><span>Axios</span>
               </div>
-              <a className="proj-link" href="https://infravision-jynuumn4r-anggasspms-projects.vercel.app" target="_blank" rel="noopener noreferrer">View website →</a>
+              <a className="proj-link" href="https://infravision-mocha.vercel.app" target="_blank" rel="noopener noreferrer">View website →</a>
             </div>
             <div className="project-card glass-surface reveal" style={{ '--d': 4 } as React.CSSProperties}>
               <span className="role">Game Developer · Dec 2025</span>
