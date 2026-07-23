@@ -298,7 +298,7 @@ export default function Home() {
     education: () => `B.Sc. Computer Science (Informatics), Universitas Pembangunan Nasional "Veteran" Jakarta — 2024–2028 (expected). GPA: <b>3.90/4.00</b>.`,
     experience: () => `<b>UI/UX Designer</b> @ KSM Multimedia (Mar 2025 – Nov 2025)<br><b>Head of Public Relations</b> @ HIMA Informatika (Jan 2025 – Jan 2026)`,
     skills: () => "Languages: HTML/CSS, JS/TS, Java, Kotlin, Python, React. Backend: Node, Express, Next.js, FastAPI. DB: MySQL, PostgreSQL, MongoDB, Neo4j. Design: Figma, Maze.",
-    projects: () => `1. Community-Based Marketplace App — Android, Kotlin, Supabase<br>2. AI Infrastructure Reporting System — React, Flutter, Leaflet.js<br>3. Night City Racing Game — Unity, C#, Vehicle Physics.`,
+    projects: () => `1. Community-Based Marketplace App — Android, Kotlin, Supabase<br>2. AI Infrastructure Reporting System — React, Flutter, Leaflet.js<br>3. Night City Racing Game — Unity, C#, Vehicle Physics`,
     contact: () => "Email: saifalialhaddad2@gmail.com · GitHub: github.com/saifalihdd · LinkedIn: linkedin.com/in/saifalihdd · Instagram: instagram.com/saifalihdd",
     sudo: () => "Permission denied: guest is not in the sudoers file. This incident will be reported.",
   };
